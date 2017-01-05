@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.loginRegForm h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: arial;
+    text-transform: uppercase;
+    color: saddlebrown;
+}
+.loginRegForm{
+    width: 420px;
+    margin: 300px auto 0 auto;
+    border: saddlebrown solid 1px;
+}
+.loginRegForm input[type=text],
+.loginRegForm input[type=password]{
+    font-size: 20px;
+    width: 350px;
+    margin: 10px 25px;
+    padding: 10px;
+    border: saddlebrown solid 1px;
+}
+
+.loginRegForm p {
+    text-align: center;
+}
+/*
+.loginRegForm .switchForm:before {
+    margin: 50px auto 20px auto;
+    content: " ";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: #FF851B;
+    clear: both;
+}*/
+.switchForm{
+    display: block;
+    clear: both;
+}
+.loginForm{
+    display: block;
+}
+
+.signupForm{
+    display: none;
+}
+
+.loginRegSubmit{
+    height: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 175px;
+    letter-spacing: 1px;
+    background-color: sandybrown;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+    border: saddlebrown solid 2px;
+    float: left;
+}
+
+.formMsg{
+    width: 195px;
+    height: 37px;
+    margin-left: 25px;
+    float: left;
+    display: block;
+    border: saddlebrown solid 1px;
+}

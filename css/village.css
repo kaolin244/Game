@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding : 0;
+    height: 100%;
+}
+.wrapperClass{
+    width: 50%;
+    height: 600px;
+    border: black solid 1px;
+    margin: 200px auto;
+}
+.beltClass{
+    width: 100%;
+    border: blue solid 1px;
+    height: 10%;
+}
+.containerClass{
+
+}
+.infoBeltClass{
+    width: 100%;
+    border: red solid 1px;
+    height: 7%;
+}
+.buildingsClass{
+    width: 70%;
+    border: orange solid 1px;
+    height: 80%;
+    float: left;
+}
+.armyClass{
+    position: relative;
+    width: 70%;
+    border: orange solid 1px;
+    height: 80%;
+    float: left;
+
+}
+.menuClass{
+    float: left;
+    border: green solid 1px;
+    width: 29%;
+    height: 80%;
+}
+.menuClass ul{
+    list-style-type: none;
+}
+.aaa{
+    background-color: blue;
+}
+
+.show{
+    display: inline-block;
+}
+.hide{
+    display: none;
+}

@@ -1,0 +1,39 @@
+.containerClass{
+    display: flex;
+    width: 900px;
+}
+.mapClass{
+    min-height: 430px;
+    min-width: 430px;
+    border: black solid 1px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+.square {
+    float: left;
+    margin: 2px;
+    padding: 0;
+    height: 48px;
+    width: 48px;
+    background-color: greenyellow;
+
+}
+
+.village{
+    background-color: orange;
+}
+.village:hover{
+    cursor: pointer;
+}
+.villageOwner{
+    background-color: red;
+}
+.clearFix{
+    clear: both;
+}
+.infoOwnerClass{
+    border: solid 1px red;
+    width: 300px;
+}

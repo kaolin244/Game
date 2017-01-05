@@ -1,0 +1,17 @@
+{
+  "Miecznik":
+  {
+    "cost_wood": 30,
+    "cost_stone": 30,
+    "cost_food": 30,
+    "cost_population": 1
+  },
+
+  "Lucznik":
+  {
+    "cost_wood": 6000,
+    "cost_stone": 6000,
+    "cost_food": 6000,
+    "cost_population": 1
+  }
+}
