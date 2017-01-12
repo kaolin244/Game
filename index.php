@@ -49,7 +49,11 @@ if(!empty($_POST['loginSubmit']))
         <div class = "switchForm" >
            Nie masz konata?<a href="signup.php"> Zarejestruj się</a>
         </div>
-        </div>
+            <div>
+                <object type="text/html" data="http://localhost:3000/?id=1" width="800px" height="600px" style="overflow:auto;border:5px ridge blue">
+                </object>
+            </div>
+
     <?php echo $signupMsg; ?>
 
 </body>

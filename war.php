@@ -19,8 +19,8 @@ $data_php = $ajax_class->showInfo($enemy);
     <?php echo $data_php->village_name?>
     <div class = war_army>
         <ul>
-            <li>Miecznik: <input id = 'swordsman_input' type = 'number' min = 0 value = '0'><button id = 'swordsman_btn' value = '2313421' onclick = 'setMaximumSwordsman(<?php echo $army_data->Miecznik?>);'>Maks:<?php echo ' '.$army_data->Miecznik?></button></li>
-            <li>Lucznik: <input id = 'archer_input' type='number' min = 0 value = '0'><button id = 'archer_btn' onclick = 'setMaximumArcher(<?php echo $army_data->Lucznik?>);'>Maks:<?php echo ' '.$army_data->Lucznik?></button></li>
+            <li>Miecznik: <input id = 'swordsman_input' type = 'number' min = 0 value = '0'><button id = 'swordsman_btn'></button></li>
+            <li>Lucznik: <input id = 'archer_input' type='number' min = 0 value = '0'><button id = 'archer_btn'></button></li>
         </ul>
         <div>
             Czas trwania:
@@ -29,6 +29,11 @@ $data_php = $ajax_class->showInfo($enemy);
         <div>
             Czas dotarcia:
             <span id = 'end_time'>00:00:00</span>
+        </div>
+        <div>
+            Wyśli wojska w celu:
+            <button id = 'attack_btn'>Atak</button>
+            <button id = 'help_btn'>Pomoc(IA)</button>
         </div>
     </div>
     <a href = "home.php"><button>Mapa</button></a>
